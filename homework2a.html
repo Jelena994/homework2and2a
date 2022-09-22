@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    
+    <h1><label>Order Form</label></h1>
+</head>
+<body>
+    <label for="fname">Your Name:</label>
+    <input type="fname" placeholder="Your Name">
+    <br>
+    <br>
+    <label for="email">Your E-mail:</label>
+    <input type="email" placeholder="Your Email">
+    <br>
+    <br>
+    
+    <p>Choose your product:<input type="radio" name="product" value="product1" ><label>Product1</label>
+        <input type="radio" name="product" value="product2" ><label>Product2</label>
+        <input type="radio" name="product" value="product3" ><label>Product3</label></p>
+    <br>
+    <label for="DeliveryDate">Delivery Date:</label><input type="date" placeholder="Enter Date">
+    <br>
+    <br>
+    <br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="3" max="3">
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <input type="address" placeholder="Street Address">
+    <br>
+    <br>
+    <label for="city">City:</label>
+
+    <select id="city">
+  <option value="selectcity">---Select city---</option>
+  <option value="city1">City1</option>
+  <option value="city2">City2</option>
+  <option value="city3">City3</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label for="region">Region:</label>
+
+    <select id="region">
+  <option value="selectregion">---Select region---</option>
+  <option value="region1">Region1</option>
+  <option value="region2">Region2</option>
+  <option value="region3">Region3</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="checkbox" id="notifications" name="notifications" /><label for="notifications">Notify me by email</label>
+    <br>
+    <br>
+    <label for="message">Message</label><br>
+        <textarea id="message" placeholder="Your comment here" name="message"></textarea>
+    <br>
+    <br>
+    <br>
+   
+        <button type="button" onclick="mojafunkcija()">Order</button>
+    
+    
+    
+</body>
+</html>
